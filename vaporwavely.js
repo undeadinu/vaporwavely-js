@@ -76,3 +76,8 @@ dictionary = ['vaporwave',
 'where are you going',
 'satisfaction guaranteed',
 'sciare'];
+
+module.exports = {
+    vaporize: vaporize,
+    vaporipsum: vaporipsum
+}
