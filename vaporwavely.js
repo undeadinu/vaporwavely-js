@@ -13,6 +13,16 @@ var vaporize = function (entryText) {
 	return returnText;
 };
 
+var vaporipsum = function (numParagraphs = 1) {
+	var paragraph;
+	var paragraphFinal = '';
+	for(var i = 0; i < (dictionary.length * numParagraphs); i++){
+		paragraph = Math.floor((Math.random() * dictionary.length));
+		paragraphFinal += dictionary[paragraph] + ' ';
+	}
+	return paragraphFinal;
+};
+
 dictionary = ['vaporwave',
 'aesthetic',
 '1999',
