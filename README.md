@@ -15,11 +15,20 @@ Convert your text in an aesthetical text, or generate nostalgic 1999 paragraphs 
 ### Usage
 - `vaporipsum` : Generate a random text, like [Lorem Ipsum](https://www.lipsum.com/), but more nostalgic and aesthetic
 
- 
+```js
+import vaporwavely.js
+
+vaporipsum(2)
+```
 
 
 - `vaporize` : Convert your text from this **Hello World** to this **Ｈｅｌｌｏ Ｗｏｒｌｄ**
 
+```js
+import vaporwavely.js
+
+vaporize("Hello World")
+```
 
  
 
