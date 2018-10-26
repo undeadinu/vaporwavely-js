@@ -1,0 +1,24 @@
+{
+  "name": "vaporwavely",
+  "version": "1.0.0",
+  "description": "An extremely fast library to vaporize your text and many more!",
+  "main": "dist/vaporwavely.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GasGang/vaporwavely-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GasGang/vaporwavely-js/issues"
+  },
+  "homepage": "https://github.com/GasGang/vaporwavely-js#readme",
+  "devDependencies": {
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
