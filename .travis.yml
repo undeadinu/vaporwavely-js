@@ -1,4 +1,9 @@
 language: node_js
 node_js:
   - "stable"
-script: yarn test
+install:
+  - npm install -g codecov
+  - yarn install
+script:
+  - yarn coverage
+  - codecov
