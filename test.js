@@ -1,5 +1,5 @@
 const assert = require('assert');
-const vaporwavely = require('./vaporwavely');
+const vaporwavely = require('./dist/vaporwavely');
 
 const asciiChart = {
     "31": "",
@@ -116,14 +116,3 @@ it('correctly vaporizes something mixed', () => {
 it('correctly vaporizes something uppercase', () => {
     assert.equal(vaporwavely.vaporize('VIOLET ARE RED, ROSES ARE BLUE'), 'ＶＩＯＬＥＴ ＡＲＥ ＲＥＤ， ＲＯＳＥＳ ＡＲＥ ＢＬＵＥ');
 });
-
-// it('correctly vaporizes characters', () => {
-//     assert.equal(vaporwavely.vaporize(asciiChart['33']), `${asciiChart['33']} `);
-// });
-
-// it('correctly vaporizes ascii characters', () => {
-//     for (var i = 0; i < asciiChart.length; i++) {
-//         assert.equal(vaporwavely.vaporize(asciiChart['33']), `${asciiChart['33']} `);
-//     }
-// });
-
