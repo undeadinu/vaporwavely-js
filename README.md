@@ -30,7 +30,11 @@ import vaporwavely.js
 vaporize("Hello World")
 ```
 
- 
+### Test it
+```sh
+yarn install
+yarn test
+```
 
  
 #### Credits 🙏
