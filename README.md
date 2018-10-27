@@ -1,6 +1,12 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/GasGang/vaporwavely-js/master/logo.jpg" alt="Vaporwavely Logo" />
     <br>
+    <a href="https://codecov.io/gh/GasGang/vaporwavely-js" target="blank">
+  <img src="https://codecov.io/gh/GasGang/vaporwavely-js/branch/master/graph/badge.svg" />
+</a>
+    <a href="https://travis-ci.org/GasGang/vaporwavely-js" target="blank">
+    <img src="https://travis-ci.org/GasGang/vaporwavely-js.svg?branch=master">
+    </a>
 </p>
 
 Convert your text in an aesthetical text, or generate nostalgic 1999 paragraphs with vaporipsum
